@@ -1,0 +1,220 @@
+####################################
+#         System information       #
+####################################
+# Date:                   2020:11:29 
+# Time:                   20:31:27 
+# Xnee program:           cnee 
+# Xnee version:           3.19 
+# Xnee home:              http://www.gnu.org/software/xnee/ 
+# Xnee info mailing list: info-xnee@gnu.org 
+# Xnee bug mailing list:  bug-xnee@gnu.org 
+# X version:              11 
+# X revision:             0 
+# X vendor:               The X.Org Foundation 
+# X vendor release:       12004000 
+# Record version major:   1
+# Record version minor:   13
+# OS name:                Linux 
+# OS Release:             4.9.212-antix.1-amd64-smp 
+# OS Version:             #1 SMP PREEMPT Fri Jan 31 22:19:43 EET 2020 
+# Machine:                x86_64 
+# Nodename:               home 
+# Display name:           :0.0
+# Dimension:              1024x768
+
+
+
+##############################################
+#      Xnee application arguments            #
+##############################################
+#  cnee --record --mouse --keyboard -o maximize.xns -sk q -t 2 
+
+
+##############################################
+#      Displays                              #
+##############################################
+# display :0.0
+# distribute
+
+
+##############################################
+#      Files                                 #
+##############################################
+# out-file maximize.xns
+# err-file stderr
+
+
+##############################################
+#      Key Grabs                             #
+##############################################
+# stop-key         q
+# pause-key        0
+# resume-key       0
+# insert-key       0
+# exec-key         0
+# exec-program-key         xnee-exec-no-program
+
+
+##############################################
+#      Recording limits etc                  #
+##############################################
+
+events-to-record        -1
+data-to-record          -1
+seconds-to-record       -1
+# first-last
+
+# Record  all (including current) clients or only future ones
+all-clients
+# future-clients
+
+# Store the starting mouse position 
+# store-mouse-position
+
+
+##############################################
+#      Resolution                            #
+##############################################
+
+# Resolution
+#recorded-resolution  1024x768
+#replay-resolution  1x1
+#resolution-adjustment  0
+
+
+##############################################
+#      Speed                                 #
+##############################################
+
+# Speed
+#speed-percent  100
+
+
+##############################################
+#      Replaying limits etc                  #
+##############################################
+
+max-threshold 20 
+min-threshold 20 
+tot-threshold 40 
+
+
+##############################################
+#      Feedback                              #
+##############################################
+#feedback-none
+#feedback-stderr
+feedback-xosd
+ 
+
+
+##############################################
+#      Various                               #
+##############################################
+
+# Plugin file 
+
+# Modes (currently not used)
+# synchronised-replay
+
+# Replay offset
+#replay-offset 0x0
+
+# Human printout of X11 data (instead of Xnee format)
+# human-printout  
+
+# Delay before starting record/replay
+# time 2
+
+# No recording of ReparentNotify
+# no-reparent-recording 
+
+# Various
+#########################################
+#          Record settings              #
+#########################################
+#   data_flags          7
+#   rState              0x55e67a624270
+#   xids[0]             3
+#   xids[1]             0
+# Number of Ranges      2
+# RecordRange[0]
+request-range            0-0
+reply-range                   0-0 
+extension-request-major-range  0-0 
+extension-request-minor-range  0-0 
+extension-reply-major-range   0-0
+extension-reply-minor-range   0-0 
+delivered-event-range         21-21 
+device-event-range            2-6 
+error-range                   0-0 
+# RecordRange[1]
+request-range            0-0
+reply-range                   0-0 
+extension-request-major-range  0-0 
+extension-request-minor-range  0-0 
+extension-reply-major-range   0-0
+extension-reply-minor-range   0-0 
+delivered-event-range         0-0 
+device-event-range            66-71 
+error-range                   0-0 
+7,6,968,18,0,0,0,299251,9,'VirtualBox mouse integration'
+7,6,969,18,0,0,0,299550,9,'VirtualBox mouse integration'
+7,6,969,17,0,0,0,299651,9,'VirtualBox mouse integration'
+7,6,969,16,0,0,0,299771,9,'VirtualBox mouse integration'
+7,6,969,15,0,0,0,300031,9,'VirtualBox mouse integration'
+7,6,969,14,0,0,0,300122,9,'VirtualBox mouse integration'
+7,6,969,13,0,0,0,301244,9,'VirtualBox mouse integration'
+7,4,0,0,1,0,0,302108,12,ImExPS/2 Generic Explorer Mouse
+6,4,0,0,1,0,0,302108,2,Virtual core pointer
+7,5,0,0,1,0,0,302223,12,ImExPS/2 Generic Explorer Mouse
+6,5,0,0,1,0,0,302223,2,Virtual core pointer
+7,6,968,13,0,0,0,303491,9,'VirtualBox mouse integration'
+7,6,968,14,0,0,0,303523,9,'VirtualBox mouse integration'
+7,6,967,15,0,0,0,303536,9,'VirtualBox mouse integration'
+7,6,967,16,0,0,0,303548,9,'VirtualBox mouse integration'
+7,6,967,17,0,0,0,303559,9,'VirtualBox mouse integration'
+7,6,967,18,0,0,0,303571,9,'VirtualBox mouse integration'
+7,6,967,19,0,0,0,303579,9,'VirtualBox mouse integration'
+7,6,966,21,0,0,0,303584,9,'VirtualBox mouse integration'
+7,6,966,22,0,0,0,303595,9,'VirtualBox mouse integration'
+7,6,965,24,0,0,0,303620,9,'VirtualBox mouse integration'
+7,6,965,25,0,0,0,303627,9,'VirtualBox mouse integration'
+7,6,965,26,0,0,0,303639,9,'VirtualBox mouse integration'
+7,6,964,28,0,0,0,303652,9,'VirtualBox mouse integration'
+7,6,963,29,0,0,0,303680,9,'VirtualBox mouse integration'
+7,6,963,31,0,0,0,303704,9,'VirtualBox mouse integration'
+7,6,962,33,0,0,0,303852,9,'VirtualBox mouse integration'
+7,6,962,34,0,0,0,303892,9,'VirtualBox mouse integration'
+7,6,962,35,0,0,0,303911,9,'VirtualBox mouse integration'
+7,6,962,36,0,0,0,303924,9,'VirtualBox mouse integration'
+7,6,962,37,0,0,0,303936,9,'VirtualBox mouse integration'
+7,6,963,38,0,0,0,303947,9,'VirtualBox mouse integration'
+7,6,963,40,0,0,0,303960,9,'VirtualBox mouse integration'
+7,6,963,42,0,0,0,303971,9,'VirtualBox mouse integration'
+7,6,963,43,0,0,0,303983,9,'VirtualBox mouse integration'
+7,6,963,46,0,0,0,303992,9,'VirtualBox mouse integration'
+7,6,963,47,0,0,0,303995,9,'VirtualBox mouse integration'
+7,6,963,50,0,0,0,304008,9,'VirtualBox mouse integration'
+7,6,963,53,0,0,0,304015,9,'VirtualBox mouse integration'
+7,6,963,55,0,0,0,304020,9,'VirtualBox mouse integration'
+7,6,963,57,0,0,0,304031,9,'VirtualBox mouse integration'
+7,6,963,62,0,0,0,304040,9,'VirtualBox mouse integration'
+7,6,963,64,0,0,0,304044,9,'VirtualBox mouse integration'
+7,6,963,66,0,0,0,304056,9,'VirtualBox mouse integration'
+7,6,963,71,0,0,0,304063,9,'VirtualBox mouse integration'
+7,6,963,74,0,0,0,304067,9,'VirtualBox mouse integration'
+7,6,963,80,0,0,0,304080,9,'VirtualBox mouse integration'
+7,6,961,88,0,0,0,304088,9,'VirtualBox mouse integration'
+7,6,960,92,0,0,0,304092,9,'VirtualBox mouse integration'
+7,6,960,96,0,0,0,304104,9,'VirtualBox mouse integration'
+7,6,958,105,0,0,0,304111,9,'VirtualBox mouse integration'
+7,6,957,109,0,0,0,304116,9,'VirtualBox mouse integration'
+7,6,955,114,0,0,0,304127,9,'VirtualBox mouse integration'
+7,6,954,124,0,0,0,304136,9,'VirtualBox mouse integration'
+7,6,953,126,0,0,0,304139,9,'VirtualBox mouse integration'
+7,6,953,131,0,0,0,304152,9,'VirtualBox mouse integration'
+7,6,950,138,0,0,0,304159,9,'VirtualBox mouse integration'
+7,6,949,141,0,0,0,304164,9,'VirtualBox mouse integration'
+7,6,948,143,0,0,0,304175,9,'VirtualBox mouse integration'
+7,6,947,148,0,0,0,304188,9,'VirtualBox mouse integration'
